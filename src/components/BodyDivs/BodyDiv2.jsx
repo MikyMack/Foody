@@ -12,7 +12,7 @@ const BodyDiv2 = () => {
         CUSTOMER FAVORITES
       </h2>
       <h1 className="text-6xl font-bold m-5">Popular Catagories</h1>
-      <div className="m-5 flex justify-between items-center w-full ">
+      <div className="m-5 flex justify-between items-center w-full cursor-pointer">
         <div className="bg-white drop-shadow-md w-1/4 m-3 rounded-2xl h-64 flex flex-col justify-center items-center">
           <div>
             <img src={burger} alt="burger" className="rounded-full w-36 h-36" />

@@ -14,8 +14,8 @@ const BodyDiv3 = () => {
       <h1 className="text-6xl font-bold m-2">Standout Dishes</h1>
       <h1 className="text-6xl font-bold mt-2 mb-10">From Our Menu</h1>
       <div className="relative w-full">
-        <div className="w-full flex">
-          <div className="relative bg-white w-1/3 h-96 m-5 rounded-2xl drop-shadow-md p-10">
+        <div className="w-full flex ">
+          <div className="relative bg-white w-1/3 h-96 m-5 rounded-2xl drop-shadow-md p-10 cursor-pointer">
             <div className="absolute top-0 right-0 bg-[#39DB4A] w-12 h-12 rounded-es-2xl rounded-se-2xl text-white flex justify-center items-center">
               <AiFillHeart className="text-2xl" />
             </div>
@@ -35,7 +35,7 @@ const BodyDiv3 = () => {
               </p>
             </div>
           </div>
-          <div className="relative bg-white w-1/3 h-96 m-5 rounded-2xl drop-shadow-md p-10">
+          <div className="relative bg-white w-1/3 h-96 m-5 rounded-2xl drop-shadow-md p-10 cursor-pointer">
             <div className="absolute top-0 right-0 bg-[#39DB4A] w-12 h-12 rounded-es-2xl rounded-se-2xl text-white flex justify-center items-center">
               <AiOutlineHeart className="text-2xl" />
             </div>
@@ -55,7 +55,7 @@ const BodyDiv3 = () => {
               </p>
             </div>
           </div>
-          <div className="relative bg-white w-1/3 h-96 m-5 rounded-2xl drop-shadow-md p-10">
+          <div className="relative bg-white w-1/3 h-96 m-5 rounded-2xl drop-shadow-md p-10 cursor-pointer">
             <div className="absolute top-0 right-0 bg-[#39DB4A] w-12 h-12 rounded-es-2xl rounded-se-2xl text-white flex justify-center items-center">
               <AiOutlineHeart className="text-2xl" />
             </div>

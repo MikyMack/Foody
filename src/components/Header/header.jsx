@@ -14,18 +14,18 @@ export default function header() {
       </div>
       <div className='flex justify-between font-semibold'>
         <div className='p-6 '>
-          <h1 className='text-base m-1 text-green-400'>Home</h1>
+          <h1 className='text-base m-1 text-green-400 cursor-pointer'>Home</h1>
         </div>
-        <div className='flex justify-center items-center p-6'>
+        <div className='flex justify-center items-center p-6 cursor-pointer'>
           <h1 >Menu </h1>
           <RiArrowDropDownLine className='text-green-400 m-1 text-2xl'/>
         </div>
-        <div className='flex justify-center items-center p-6'>
+        <div className='flex justify-center items-center p-6 cursor-pointer'>
           <h1>Services </h1>
           <RiArrowDropDownLine className='text-green-400 m-1 text-2xl '/>
         </div>
         <div className='p-6'>
-          <h1 className='text-base m-1'>Offers</h1>
+          <h1 className='text-base m-1 cursor-pointer'>Offers</h1>
         </div>
       </div>
       <div className='flex justify-between items-center '>
@@ -36,10 +36,10 @@ export default function header() {
           <BiShoppingBag/>
           <p className='absolute -top-1 -right-1 text-xs bg-green-400 rounded-full w-4 h-4 text-center text-white'>8</p>
         </div>
-        <div className='flex justify-center items-center bg-green-400 rounded-full px-3 mx-3 py-1 text-white font-medium'>
+        <div className='flex justify-center items-center bg-green-400 rounded-full px-3 mx-3 py-1 text-white font-medium cursor-pointer'>
           <BiPhoneCall className='m-1'/>
           <h1 className='m-1'>Contact</h1>
-        </div>
+        </div> 
       </div>
     </div>
     

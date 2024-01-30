@@ -23,15 +23,15 @@ const BodyDiv1 = () => {
         <div className="flex justify-center items-center text-xl font-medium m-3">
           <div
             style={{ boxShadow: "0 0.5px 8px 0.3px lightGreen" }}
-            className=" mx-3 flex justify-center items-center bg-green-400 rounded-full px-12 py-5 text-white drop-shadow-xl"
+            className=" mx-3 flex justify-center items-center bg-green-400 rounded-full px-12 py-5 text-white drop-shadow-xl cursor-pointer"
           >
             <p>Order Now</p>
           </div>
-          <div className=" mx-3 font-medium text-slate-600">
+          <div className=" mx-3 font-medium text-slate-600 ">
             <p>Watch Video</p>
           </div>
           <div className="w-1/3">
-            <div className="mx-2 w-14 h-14 bg-white rounded-full flex justify-center items-center drop-shadow-lg">
+            <div className="mx-2 w-14 h-14 bg-white rounded-full flex justify-center items-center drop-shadow-lg cursor-pointer">
               <BsPlayFill className="m-1 text-3xl" />
             </div>
           </div>
